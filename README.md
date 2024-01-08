@@ -5,7 +5,7 @@ The `CircularList` class has an internal static `IndNode` class. CircularList ha
 
 ## Dependencies
 * Microsoft Windows version 10.0.19045
-* Java something
+* Java 18.0.2.1
 
 ## Execution
 ```java
