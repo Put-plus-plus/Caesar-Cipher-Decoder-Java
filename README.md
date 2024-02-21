@@ -1,17 +1,11 @@
 ## Description 
-Caesar ciphers are simple substitution ciphers in which each letter in the text is replaced by a letter some fixed number of positions up or down the alphabet. The user can then in a swing GUI enter a text they’d like to decode and choose the number of step back or forward, and the decoded message appears in the window. In order to solve the problem of what to do at the begninig and end of the alphabet as would in a standard list, a circular list was built from scarch using the util package in Java. 
+Caesar ciphers are simple substitution ciphers in which each letter in the text is replaced by a letter some fixed number of positions up or down the alphabet. The user can then in a swing GUI enter a text they’d like to decode and choose the number of step back or forward, and the decoded message appears in the window. 
 
-The `CircularList` class has an internal static `Node` class, and an `append_node()` method that allows for the creation of an circular list by appending `Node` objects. 'CircularList' also has a `create_alphabet()` method that calls `append_node()` so to create a circular list populated with the letters of the English alphabet. `CircularList` has a `shift_forward_letter()` `shift_backwards_letter()` which find the a letter some fixed number of positions up or down the alphabet for a given letter, and are called by the 'decode_word()' method which takes the user's input in terms of word to be decoded, the direction of the shift, and the number of steps. The `GraphicalCaesar` class for user interactions GUI in `main()` method, provided by the user word to be decoded, the direction of the shift, and the number of steps.
-
-
-
-
-
-
+The `CaesarCipherDecoder` class has two methods: `decode()` and `main`. `decode()` accepts a string to be decoded, and an integer that represents the number of places up or down the alphabet each character of the string is to be shifted. If a character is not in the standard English alphabet the character is kept in the the decoded cipher as is, eg "ab c%4" with a shift of -1 is decoded "bc d%4". `decode()` returns a string with the decoded cipher. The `main()` method launches a Swing window for the user to use to decode Caesar ciphers. The user is instructed to enter the cipher into a text area, select the desired shift from a drop down menu, and press a button for the decoded cipher to be presented to the user. 
 
 
 ## Dependencies
-* Microsoft Windows version 10.0.19045
+* Microsoft Windows 10.0.19045
 * Java 18.0.2.1
 
 ## Execution
@@ -19,5 +13,5 @@ The `CircularList` class has an internal static `Node` class, and an `append_nod
 // just run file?
 ```
 
-## Animation
+## Animation - '' example
 remember to add the link to the GIF, which I must also make sure to add to the repo, see stackoverflow 
