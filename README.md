@@ -6,10 +6,6 @@ Caesar ciphers are simple substitution ciphers in which each letter in the text 
 * Microsoft Windows 10.0.19045
 * Java 18.0.2.1
 
-## Execution
-```java
-// just run file?
-```
 
 ## Animation - '' example
 remember to add the link to the GIF, which I must also make sure to add to the repo, see stackoverflow 
