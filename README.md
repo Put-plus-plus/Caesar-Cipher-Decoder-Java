@@ -8,4 +8,5 @@ Caesar ciphers are simple substitution ciphers in which each letter in the text 
 
 
 ## Animation - '' example
-remember to add the link to the GIF, which I must also make sure to add to the repo, see stackoverflow 
+https://github.com/Put-plus-plus/Caesar-Cipher-Decoder-Java/assets/153921921/23f18e77-b818-4290-a4c7-a0b10aa5bf7a
+
